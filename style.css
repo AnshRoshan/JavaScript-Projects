@@ -1,0 +1,64 @@
+body {
+  margin: 0px;
+  background: radial-gradient(
+    aqua,
+    rgb(249, 149, 249),
+    aqua,
+    rgb(249, 149, 249)
+  );
+  background-image: url("public/back.jpg");
+  background-size: cover;
+  min-height: 100vh;
+
+}
+
+/* Add these styles to your existing stylesheet or create a new one */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Adjust minmax as needed */
+  /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 3 items per row, adjust as needed */
+  gap: 2rem; /* Adjust the gap between items */
+  padding: 20px;
+  margin: 0 auto;
+  width: 95%;
+
+}
+
+.project {
+  background-color: #cccccc7a; /* Adjust background color as needed */
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+
+.project a {
+  text-decoration: none;
+  color: #000000; /* Link color */
+  font-weight: bold;
+  font-size: larger;
+  display: block;
+  text-decoration: underline;
+  line-height: 1.5;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+.project p {
+  margin: 10px 0;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight:900;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 5px 5px 10px rgb(63, 63, 63);
+  letter-spacing: 5px;
+  text-decoration: underline;
+}

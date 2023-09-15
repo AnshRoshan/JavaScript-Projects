@@ -1,0 +1,12 @@
+# Ignore .env file
+.env
+
+# Ignore Node.js modules
+node_modules/
+
+# Ignore any built or compiled files
+*.log
+*.bak
+*.cache
+
+.vscode/

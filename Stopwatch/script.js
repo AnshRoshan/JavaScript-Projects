@@ -18,18 +18,27 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function displayTimer() {
     if (isRunning) {
-      milliseconds += 10;
-      seconds = milliseconds >= 1000 ? seconds + 1 : seconds;
-      minutes = seconds >= 60 ? minutes + 1 : minutes;
-      hours = minutes >= 60 ? hours + 1 : hours;
-      milliseconds = milliseconds >= 1000 ? 0 : milliseconds;
+      milliseconds += 100;
+      if (milliseconds >= 1000) {
+        milliseconds = 0;
+        seconds += 1;
+        if (seconds >= 60) {
+          seconds = 0;
+          minutes += 1;
+          if (minutes >= 60) {
+            minutes = 0;
+            hours += 1;
+          }
+        }
+      }
 
-      let h = String(hours).padStart(2, "0");
-      let m = String(minutes % 60).padStart(2, "0");
-      let s = String(seconds % 60).padStart(2, "0");
+      let hrs = String(hours).padStart(2, "0");
+      let mins = String(minutes % 60).padStart(2, "0");
+      let secs = String(seconds % 60).padStart(2, "0");
       let ms = String(milliseconds).padStart(3, "0");
 
-      timerRef.innerHTML = `${h}:${m}:${s}:${ms}`;
+      // timerRef.innerHTML = `${hours}:${minutes}:${seconds}:${milliseconds}`;
+      timerRef.innerHTML = `${hrs}:${mins}:${secs}:${ms}`;
     }
   }
 

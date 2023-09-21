@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Random Password Generator</title>
+    <link rel="shortcut icon" href="../public/passwordgen.png" type="image/x-icon">
+    <!--Fontawesome Icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" id="output" />
+      <button>
+        <i class="far fa-copy" onclick="copyClipboard()"></i>
+      </button>
+      <button>
+        <i class="fas fa-random" onclick="genPassword()"></i>
+      </button>
+      <input type="range" id="length" min="4" max="30" value="8" oninput="genPassword()" />
+      <h3 id="length-val">8</h3>
+
+      <!-- button for the number to be included and special characters -->
+      <div class="options">
+        <div class="option">
+          <input type="checkbox" id="uppercase" checked onclick="genPassword()" />
+          <label for="uppercase">Uppercase</label>
+        </div>
+        <div class="option">
+          <input type="checkbox" id="lowercase" checked onclick="genPassword()" />
+          <label for="lowercase">Lowercase</label>
+        </div>
+        <div class="option">
+          <input type="checkbox" id="numbers" checked onclick="genPassword()" />
+          <label for="numbers">Numbers</label>
+        </div>
+        <div class="option">
+          <input type="checkbox" id="symbols" checked onclick="genPassword()" />
+          <label for="symbols">Symbols</label>
+        </div>
+      </div>
+    </div>
+
+    <!--Script-->
+    <script src="script.js"></script>
+  </body>
+</html>

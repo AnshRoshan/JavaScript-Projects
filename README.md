@@ -1,2 +1,2 @@
 # JavaScript-Projects
-Collection Of various JavaScript Projects
+Collections Of various JavaScript Projects

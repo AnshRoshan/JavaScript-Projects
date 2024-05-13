@@ -1,0 +1,289 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/BuildSystem/1-TERMINUS-PY.sublime-build",
+					""
+				],
+				[
+					"Packages/User/BuildSystem/2-FILE-Python.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/BuildSystem/2-FILE-Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"li",
+				"Live Server: Open In Browser"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Build With: 1-TERMINUS-PY"
+			],
+			[
+				"the",
+				"UI: Select Theme"
+			],
+			[
+				"code",
+				"Codeium: Enable Plugin"
+			],
+			[
+				"cod",
+				"Codeium: Provide Auth Token"
+			],
+			[
+				"isn",
+				"Package Control: Install Package"
+			],
+			[
+				"ui ",
+				"UI: Select Theme"
+			],
+			[
+				"ui",
+				"UI: Select Theme"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"sels",
+				"UI: Select Color Scheme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 463.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/GitHub/JavaScript-Projects"
+	],
+	"file_history":
+	[
+		"/E/GitHub/JavaScript-Projects/index.html",
+		"/E/GitHub/JavaScript-Projects/JavaScript.sublime-project",
+		"/R/activate.cmd",
+		"/C/Users/anshr/activate.cmd",
+		"/R/Blogs/React.mdx",
+		"/R/next-js-course-main/next12/tailwind.config.js",
+		"/R/Blogs/Mongodb.mdx",
+		"/R/next-js-course-main/next12/next.config.js",
+		"/R/next-js-course-main/next12/next-sitemap.config.js",
+		"/R/parks.wsdl",
+		"/R/fullstack-mern-movie-2022-main/server/index.js",
+		"/E/Python/Leetcode/input.txt",
+		"/E/social_media_app-main/social_media_app-main/src/App.tsx",
+		"/E/DSA/input.txt",
+		"/E/DSA/Stater15/question1.py",
+		"/C/Users/anshr/AppData/Roaming/Sublime Text/Packages/User/BuildSystem/2-FILE-Python.sublime-build",
+		"/E/DSA/Stater15/input.txt",
+		"/E/GitHub/digitalhippo-master/package.json",
+		"/R/digitalhippo-master/src/app/layout.tsx",
+		"/R/digitalhippo-master/next.config.js",
+		"/R/digitalhippo-master/src/app/page.tsx",
+		"/R/User/Emmet.sublime-settings",
+		"/R/User/Doxy.sublime-settings",
+		"/R/User/Preferences.sublime-settings",
+		"/C/Users/anshr/AppData/Roaming/Sublime Text/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/R/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/R/digitalhippo-master/src/app/globals.css"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 49.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.Terminus":
+	{
+		"height": 283.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.out":
+	{
+		"height": 156.0
+	},
+	"pinned_build_system": "",
+	"project": "JavaScript.sublime-project",
+	"replace":
+	{
+		"height": 76.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -4,14 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Java Script Project</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>JavaScript Project</title>
     <link
-    href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono:wght@700&display=swap"
-    rel="stylesheet"
-  />
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono:wght@700&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+
     <!-- <script defer src="script.js"></script> -->
     <link rel="shortcut icon" href="/public/JSProjectFav.png" type="image/x-icon" />
+
   </head>
   <body>
     <h1>JavaScript Project</h1>
@@ -28,9 +31,7 @@
           >StopWatch
           <img src="public/Stopwatch.jpeg" alt="StopWatch Website" />
         </a>
-        <p>
-          It is a stopwatch that can be used to time anything. It has a start and reset button.
-        </p>
+        <p>It is a stopwatch that can be used to time anything. It has a start and reset button.</p>
       </div>
       <div class="project">
         <a href="Counter/index.html" target="blank"
@@ -61,7 +62,16 @@
           and generate button.
         </p>
       </div>
+      <div class="project">
+        <a href="Text-editor/index.html" target="blank"
+          >Text Editor
+          <img src="public/texteditor.jpeg" alt="Counter Website" />
+        </a>
+        <p>It is a text editor that can be used to write text .</p>
+      </div>
       <!-- Add more project items as needed -->
     </div>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'" />
   </body>
 </html>

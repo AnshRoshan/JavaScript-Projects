@@ -20,7 +20,7 @@ body {
   border-radius: 2em;
 }
 .container:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 80%;
   left: 10%;
@@ -35,7 +35,7 @@ h1 {
   text-align: center;
   font-family: 'Pacifico', cursive;
   font-size: 180px;
-  color: #E4F1FF;
+  color: #e4f1ff;
 }
 .btns {
   display: flex;

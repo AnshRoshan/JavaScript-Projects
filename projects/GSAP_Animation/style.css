@@ -1,0 +1,28 @@
+.main {
+  background: #ddd;
+  width: 100%;
+  height: 90vh;
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  background-color: chocolate;
+  left: 10%;
+  top: 50%;
+  transform: translate(0%, -50%);
+  /* since left is 10% so right be 10% for cnter w=80% */
+  width: 80%;
+  height: 100%;
+}
+
+.imagecontainer {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  /* background-color: yellowgreen; */
+}
+
+img {
+  height: 100%;
+}

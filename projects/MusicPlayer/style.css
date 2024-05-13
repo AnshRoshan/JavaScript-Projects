@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.musicplayer {
+  min-width: 480px;
+  padding: 1rem 20px;
+  background-color: grey;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  background-color: #fff;
+  color: #f39;
+  box-shadow: 0 5px 10px 5px rgba(255, 51, 153, 0.334);
+}
+
+.songimg {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
